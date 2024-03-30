@@ -47,10 +47,7 @@ header nav .navbar-nav li a {
   font-weight: 500;
 }
 
-section.hero {
-  height: 50vh;
-}
-section.hero .swiper .swiper-button-prev, section.hero .swiper .swiper-button-next, section.hero .swiper t {
+section.hero .swiper .swiper-button-prev, section.hero .swiper .swiper-button-next {
   color: #292961;
 }
 section.hero .swiper .swiper-slide {
@@ -111,5 +108,57 @@ section.hero .swiper .swiper-slide .hero-content a {
   }
   section.hero .swiper .swiper-slide .hero-content p {
     font-size: 14px;
+  }
+}
+section.about {
+  background-image: url("../images/bulb.jpg");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+section.about .about-heading {
+  max-width: 600px;
+}
+section.about .about-heading span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ea3844;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+section.about .about-heading h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #292961;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+section.about .about-para {
+  max-width: 600px;
+}
+section.about .about-para p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 190%;
+  margin-bottom: 15px;
+}
+section.about .youtube-video {
+  padding-top: 100px;
+  margin-top: 50px;
+}
+section.about .youtube-video iframe {
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  section.about .about-heading h4 {
+    font-size: 25px;
+  }
+  section.about .youtube-video {
+    padding-top: 20px;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
