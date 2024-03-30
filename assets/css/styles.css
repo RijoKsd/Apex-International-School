@@ -161,4 +161,70 @@ section.about .youtube-video iframe {
     padding-top: 20px;
     margin-top: 10px;
   }
+}
+section.news-events {
+  padding: 100px 0;
+}
+section.news-events .title span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ea3844;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+section.news-events .title h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #292961;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+section.news-events .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+section.news-events .cards .card {
+  padding: 20px;
+  position: relative;
+}
+section.news-events .cards .card .card-image img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+section.news-events .cards .card .card-image .date {
+  background-color: #292961;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+section.news-events .cards .card .card-image .date span {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+section.news-events .cards .card .card-content h3 a {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+section.news-events .cards .card .card-content h3 a {
+  color: #ea3844;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+section.news-events .cards .card .card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 190%;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=styles.css.map */
