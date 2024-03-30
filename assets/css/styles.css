@@ -310,4 +310,63 @@ section.social-media .social-links .fb-frame iframe {
 section.social-media .youtube-frame iframe {
   width: 100%;
   height: 500px;
+}
+
+section.apply {
+  padding: 50px 0;
+}
+section.apply .admission h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+}
+section.apply .admission a {
+  background: #28285f;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 11px 22px 11px 22px;
+}
+
+footer {
+  padding: 100px 0 0 0;
+  background-color: #2e358f;
+  color: #fff;
+}
+footer .row h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+footer .row h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #292961;
+  margin-top: 10px;
+}
+footer .row ul li {
+  margin-bottom: 10px;
+}
+footer .row ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .row ul li::before {
+  content: ">";
+  margin-right: 10px;
+  color: #ccc;
+}
+footer .row a {
+  color: #ea3844;
+  font-size: 14px;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */
