@@ -49,3 +49,19 @@ section{
     }
     
 }
+
+// header
+header{
+    nav{
+        .navbar-nav{
+            li{
+                a{
+                     color:#222;
+                        font-size: 13px;
+                        font-weight: 500;
+                }
+            }
+        }
+    }
+    
+}
