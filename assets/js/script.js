@@ -22,5 +22,24 @@ const swiper = new Swiper('.swiper', {
 
 
  
+//  bottom to top scroll
+const toTop = document.querySelector(".to-top");
+
+const nav = document.querySelector("header nav");
+console.log(nav)
+
+window.addEventListener("scroll",()=>{
+  if( window.scrollY > 100){
+    toTop.classList.add("active");
+    nav.style.cssText = "position : fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);";
+  }
+  else{
+    toTop.classList.remove("active");
+    nav.style.position = "static";
+  }
+
+})
+
+
  
  

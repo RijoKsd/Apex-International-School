@@ -374,4 +374,30 @@ footer .row a {
   color: #ea3844;
   font-size: 14px;
   font-weight: 400;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #292961;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  z-index: 99;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.to-top i {
+  transform: translateY(-5px);
+}
+
+.to-top.active {
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
