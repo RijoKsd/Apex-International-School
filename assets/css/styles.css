@@ -29,6 +29,32 @@ i {
   align-items: center;
 }
 
+.span-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ea3844;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #292961;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.main-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 13px 25px 13px 25px;
+  background-color: #292961;
+  border: none;
+  border-radius: 50px;
+}
+
 section.top-bar {
   background-color: #292961;
 }
@@ -64,6 +90,8 @@ section.hero .swiper .swiper-slide .hero-content {
   top: 50%;
   left: 30%;
   transform: translate(-30%, -50%);
+  background-color: rgba(19, 19, 19, 0.089);
+  padding: 20px;
 }
 section.hero .swiper .swiper-slide .hero-content h1 {
   font-size: 60px;
@@ -79,15 +107,6 @@ section.hero .swiper .swiper-slide .hero-content p {
   max-width: 100%;
   margin-top: 10px;
   word-wrap: break-word;
-}
-section.hero .swiper .swiper-slide .hero-content a {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 13px 25px 13px 25px;
-  background-color: #292961;
-  border: none;
-  border-radius: 50px;
 }
 
 @media (max-width: 768px) {
@@ -123,20 +142,6 @@ section.about {
 section.about .about-heading {
   max-width: 600px;
 }
-section.about .about-heading span {
-  font-size: 15px;
-  font-weight: 500;
-  color: #ea3844;
-  line-height: 200%;
-  margin-bottom: 10px;
-}
-section.about .about-heading h4 {
-  font-size: 30px;
-  font-weight: 600;
-  color: #292961;
-  line-height: 160%;
-  margin-bottom: 10px;
-}
 section.about .about-para {
   max-width: 600px;
 }
@@ -168,20 +173,6 @@ section.about .youtube-video iframe {
 section.news-events {
   background-image: url("../images/doodle.jpg");
   padding: 100px 0;
-}
-section.news-events .title span {
-  font-size: 15px;
-  font-weight: 500;
-  color: #ea3844;
-  line-height: 200%;
-  margin-bottom: 10px;
-}
-section.news-events .title h4 {
-  font-size: 30px;
-  font-weight: 600;
-  color: #292961;
-  line-height: 160%;
-  margin-bottom: 10px;
 }
 section.news-events .cards {
   display: grid;
@@ -240,13 +231,6 @@ section.labs {
   background-position: bottom;
   background-repeat: no-repeat;
 }
-section.labs .title {
-  font-size: 35px;
-  font-weight: 600;
-  color: #111;
-  line-height: 130%;
-  margin-bottom: 20px;
-}
 section.labs .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -294,20 +278,6 @@ section.labs .cards .card:hover .card-content {
 section.social-media {
   padding: 100px 0;
 }
-section.social-media .social-heading span {
-  font-size: 15px;
-  font-weight: 500;
-  color: #ea3844;
-  line-height: 200%;
-  margin-bottom: 10px;
-}
-section.social-media .social-heading h3 {
-  font-size: 35px;
-  font-weight: 600;
-  color: #111;
-  line-height: 130%;
-  margin-bottom: 10px;
-}
 section.social-media .social-links .fb-frame iframe {
   width: 100%;
   height: 500px;
@@ -319,22 +289,6 @@ section.social-media .youtube-frame iframe {
 
 section.apply {
   padding: 50px 0;
-}
-section.apply .admission h2 {
-  font-size: 20px;
-  font-weight: 500;
-  color: #111;
-}
-section.apply .admission a {
-  background: #28285f;
-  color: #fff;
-  font-size: 11px;
-  font-weight: 500;
-  border-radius: 50px;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 12px;
-  padding: 11px 22px 11px 22px;
 }
 
 footer {

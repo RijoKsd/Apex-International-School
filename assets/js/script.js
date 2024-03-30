@@ -18,6 +18,10 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+    // auto play
+    autoplay: {
+      delay: 5000,
+    },
   })
 
 
