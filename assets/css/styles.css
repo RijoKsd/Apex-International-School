@@ -249,7 +249,7 @@ section.labs .title {
 }
 section.labs .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
   position: relative;
 }
@@ -286,6 +286,11 @@ section.labs .cards .card:hover .card-content {
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  section.labs .cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
 section.social-media {
   padding: 100px 0;
 }

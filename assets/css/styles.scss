@@ -330,7 +330,7 @@ section {
 
     .cards{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         gap: 20px;
         position: relative;
         .card {
@@ -374,6 +374,16 @@ section {
 
             
         }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  section {
+    &.labs {
+       .cards{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+       }
     }
   }
 }
