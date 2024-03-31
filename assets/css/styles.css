@@ -351,7 +351,7 @@ footer .row a {
 
 .to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   background-color: #292961;
   color: #fff;
@@ -373,4 +373,30 @@ footer .row a {
 
 .to-top.active {
   opacity: 1;
+}
+
+.dialog-btn {
+  border-radius: 5px 5px 0px 0px;
+  width: 260px;
+  height: 40px;
+  padding: 0px 15px;
+  background-color: #76b51b;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+}
+
+.dialog-pop-up {
+  background-color: #76b51b;
+}
+
+.rijo {
+  width: 300px;
+  position: fixed;
+  right: 10px;
+  bottom: -20px;
 }/*# sourceMappingURL=styles.css.map */

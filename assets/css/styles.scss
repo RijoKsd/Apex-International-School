@@ -83,10 +83,10 @@ i {
 }
 
 // preloader
-.loader{
+.loader {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   inset: 0;
   height: 100vh;
@@ -97,11 +97,9 @@ i {
   z-index: 9999;
   transition: all 0.5s;
 }
-.loader.hide{
+.loader.hide {
   display: none;
-  
 }
-
 
 // top bar
 
@@ -509,7 +507,7 @@ footer {
 // bottom to top arrow
 .to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   background-color: $primary-color;
   color: #fff;
@@ -532,4 +530,32 @@ footer {
 
 .to-top.active {
   opacity: 1;
+}
+
+//  dialog button
+
+.dialog-btn {
+  border-radius: 5px 5px 0px 0px;
+  width: 260px;
+  height: 40px;
+  padding: 0px 15px;
+  background-color: #76b51b;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+}
+
+.dialog-pop-up {
+  background-color: #76b51b;
+}
+
+.rijo {
+  width: 300px;
+  position: fixed;
+  right: 10px;
+  bottom: -20px;
 }
