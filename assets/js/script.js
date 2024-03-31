@@ -1,3 +1,9 @@
+//  preloader
+window.addEventListener("load",()=>{
+    const preloader = document.querySelector(".loader");
+    preloader.classList.add("hide");
+})
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -20,7 +26,7 @@ const swiper = new Swiper('.swiper', {
     },
     // auto play
     autoplay: {
-      delay: 5000,
+      delay: 4000,
     },
   })
 
@@ -35,7 +41,13 @@ console.log(nav)
 window.addEventListener("scroll",()=>{
   if( window.scrollY > 100){
     toTop.classList.add("active");
-    nav.style.cssText = "position : fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);";
+    nav.style.cssText = `position : fixed;
+                        top: 0; 
+                        left: 0; 
+                       width: 100%;
+                       z-index: 1000;
+                       background-color: #fff; 
+                        box-shadow: 0 2px 4px rgba(0,0,0,0.1);`;
   }
   else{
     toTop.classList.remove("active");
@@ -43,6 +55,8 @@ window.addEventListener("scroll",()=>{
   }
 
 })
+
+ 
 
 
  

@@ -55,6 +55,25 @@ i {
   border-radius: 50px;
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  inset: 0;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: all 0.5s;
+}
+
+.loader.hide {
+  display: none;
+}
+
 section.top-bar {
   background-color: #292961;
 }
